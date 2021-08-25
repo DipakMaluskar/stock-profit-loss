@@ -12,7 +12,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
-    background-image: url("/images/subtle-prism.svg");
     background-repeat: no-repeat;
     background-size: 100% 120%;
     background-color:#d5f4e6 ;
@@ -38,9 +37,9 @@ input {
     display: block;
     margin: auto;
     border: none;
+   
 }
 
-/* hide arrows from input number field */
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -137,3 +136,5 @@ input::-webkit-outer-spin-button {
    color: #fff;
    text-decoration: none;
  }
+
+ 
