@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #008C8C;
+    --btn-bg-color: #EEF0F5;
+    --btn-bg-hover-color: #B2B9C2;
+    --btn-hover-text-color: #5F6164;
+    --twitter-color: #55ACEE;
+    --linkedin-color: #007BB5;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    background-image: url("/images/subtle-prism.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-color:#d5f4e6 ;
+}
+
+.container-center {
+    max-width: 500px;
+    padding: 0rem 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: medium;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+/* hide arrows from input number field */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0rem;
+}
+
+#output {
+    text-align: center;
+    margin: 0rem 0rem 4rem 0rem;
+    font-size: large;
+}
+
+
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer {
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+/* .footer .link {
+    color: black;
+} */
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.fa {
+    padding: 0.5rem;
+    font-size: x-large;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-twitter {
+    color: var(--twitter-color);
+}
+
+.fa-linkedin {
+
+    color: var(--linkedin-color);
+}
+
+.fa-github {
+    color: black;
+}
+
+
+#btn-check {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%)}
+#btn-check{
+   margin: 10px;
+   padding: 10px 35px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   border: none;
+   margin-left: 190px;
+ }
+
+ #btn-check:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
