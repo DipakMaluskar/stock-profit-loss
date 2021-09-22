@@ -13,8 +13,8 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
     background-repeat: no-repeat;
-    background-size: 100% 120%;
-    background-color:#d5f4e6 ;
+    background-size: cover;
+     background-image: url("/images/radiant-gradient.svg");
 }
 
 .container-center {
@@ -114,27 +114,25 @@ input::-webkit-outer-spin-button {
     color: black;
 }
 
+#btn-check  {background-image: linear-gradient(to right, #FF5F6D 0%, #FFC371  51%, #FF5F6D  100%)}
+#btn-check  {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+  border: none;
+  margin-left: 180px;
+}
 
-#btn-check {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%)}
-#btn-check{
-   margin: 10px;
-   padding: 10px 35px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
-   display: block;
-   border: none;
-   margin-left: 190px;
- }
-
- #btn-check:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
+#btn-check:hover  {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
 
  
